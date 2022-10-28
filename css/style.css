@@ -1,0 +1,111 @@
+body{
+    height: 4000px;
+}
+.img-banner{
+    width: 100%;
+    height:500px;
+}
+.banner{
+    position: relative;
+}
+.cover{
+    height:100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top:0;
+    left:0;
+}
+.wraper-banner{
+    position: absolute;
+    top:300px;
+    left:100px;
+    color: white;
+}
+.h3::after{
+    content: "";
+    width: 2px;
+    height: 20px;
+    display:inline-block;
+    background-color: red;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.h4{
+    display: inline-block;
+}
+.h3{
+    display: inline-block;
+}
+.container{
+    max-width: 1600px;
+    width: 100%;
+    margin: 50px auto;
+    background-color: white;
+}
+.map{
+    width: 100%;
+}
+.a{
+    font-weight: bold;
+    font-size: 40px;
+    color:brown
+}
+.h2{
+    font-size: 60px;
+}
+textarea{
+    resize:none;
+    height: 300px;
+    width: 700px;
+    box-shadow: 15px 20px 10px pink;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.input1{
+    background: none;
+    border: 4px solid pink;
+    border-radius: 20px;
+    padding: 10px;
+    width: 400px;
+    height: 50px;
+    background-color: darkgray;
+    color: black;
+    display: block;
+    margin: 5px;
+}
+.input1:focus{
+    border-radius: 20px;
+    border: 4px solid yellow;
+    background-color: bisque;
+    outline:none;
+}
+.select{
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    border: 4px solid pink;
+    background-color: darkolivegreen;
+    display: block;
+}
+.select:focus{
+    border: 4px solid grey;
+    background-color: darkseagreen;
+
+}
+.select1{
+    border: 4px solid white;
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    letter-spacing: 5px;
+    font-size: 20px;
+    background-color: crimson;
+
+}
+
